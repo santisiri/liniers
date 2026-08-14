@@ -1,6 +1,8 @@
 # Liniers — Pipeline cinematográfico multiagente
 
-Película episódica sobre las **Invasiones Inglesas de Buenos Aires (1806–1807)**, generada a partir de la narración de un video de YouTube (alocución histórica). Este repo es un **estudio de cine operado por agentes**: cada rol del proceso (guion, continuidad, diseño de personajes, storyboard, prompts de generación, dirección, localización, render) es un agente con responsabilidades y protocolos definidos.
+Película episódica sobre las **Invasiones Inglesas de Buenos Aires (1806–1807)**. Este repo es un **estudio de cine operado por agentes**: cada rol del proceso (guion, continuidad, diseño de personajes, storyboard, prompts de generación, dirección, localización, render) es un agente con responsabilidades y protocolos definidos.
+
+**Naturaleza de la obra (dec-003)**: es una **ficción dialogada** estilo producción de Hollywood — los personajes históricos (Liniers, Beresford, Sobremonte…) hablan en escena; no hay narrador en off ni presentadores en pantalla. La fuente (conversación Julia Rosemberg / Pedro Rosemblat, Gelatina — `source/transcript/es/clean.md`) es la **brújula historiográfica**: sus hechos, tesis y énfasis gobiernan qué historia se cuenta y desde dónde, pero los diálogos y escenas son dramaturgia propia. Estética: **live-action estilizado, 16:9** (dec-001/004). Tres episodios (dec-002).
 
 **Idiomas**: el proyecto es multi-idioma desde el origen. Idioma de trabajo: `es`. Todo contenido narrativo tiene slot para `en` (y futuros idiomas). Claves de infraestructura (JSON, slugs, IDs) siempre en inglés; contenido en el idioma que corresponda.
 
@@ -47,7 +49,7 @@ Usar `node scripts/log.mjs <agent> <type> "<summary>" [refs...]` cuando exista; 
 | Agente | Rol |
 |---|---|
 | `transcript-analyst` | Analiza la transcripción fuente, segmenta en episodios/beats, glosario histórico |
-| `episode-writer` | Escribe el guion de cada episodio (escenas, narración, diálogo) fiel a la alocución |
+| `episode-writer` | Escribe el guion de ficción de cada episodio (escenas, diálogo) guiado por las tesis de la fuente |
 | `continuity-guardian` | Audita continuidad narrativa y visual episodio a episodio; emite PASS/FAIL |
 | `character-designer` | Fichas y hojas de modelo de personajes; genera referencias visuales |
 | `storyboard-artist` | Shot list y paneles de storyboard por escena |

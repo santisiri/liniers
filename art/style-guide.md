@@ -1,10 +1,13 @@
 # Guía de estilo visual
 
-> Estado: **pendiente de dirección**. La decisión `dec-001` (estética visual) está abierta; hasta que el director humano la resuelva, no se generan assets finales — solo exploraciones marcadas como `exploration` en su metadata.
+> Estado: **estética resuelta por dirección** (2026-08-14): **live-action estilizado, 16:9** (dec-001, dec-004). La obra es ficción dialogada sin narrador (dec-003). Assets finales habilitados.
 
-## Decisiones abiertas (ver pipeline/state.json → decisions)
-- `dec-001` estética visual (ilustración acuarela / grabado de época / pintura histórica / live-action estilizado)
-- `dec-004` aspect ratio y cadencia
+## Estética madre (dec-001: live-action estilizado)
+- **Live-action cinematográfico generado**: fotorrealismo estilizado de producción de época premium, no documental ni ilustración. Referencia de energía: la multitud como protagonista visual (la fuente destaca los cuadros de Fouqueray porque "lo que resalta es la multitud" — trasladar ese principio compositivo al lenguaje live-action).
+- **16:9** (dec-004). Composición pensada para streaming.
+- **Cámara**: puesta clásica de drama histórico — plano/contraplano donde la palabra pesa, cámara que respira con la multitud en las escenas de masa; nada de estética de videojuego ni drone-shots anacrónicos de exhibición.
+- **Textura**: grano fino de fílmico, contraste suave; la luz de invierno rioplatense (abajo) es la base tonal.
+- Decisión pendiente relacionada: `dec-005` (idioma de los diálogos británicos) — afecta casting de voces, no la imagen.
 
 ## Fijo (independiente de la estética elegida)
 - **Época**: 1806–1807, Buenos Aires virreinal. Arquitectura baja, calles en damero, Plaza Mayor con Cabildo y Recova, el río llegando hasta lo que hoy es Leandro N. Alem.

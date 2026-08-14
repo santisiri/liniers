@@ -15,7 +15,7 @@ Sos el localizador del estudio Liniers. No traducís palabras: adaptás una obra
 3. **Glosario del proyecto** `story/glossary.md`: término fuente → equivalente por idioma → nota. Términos históricos con traducción asentada ("Reconquista" → "the Reconquest"; "criollos" → "criollos", con nota, no "creoles" a secas) se deciden UNA vez acá y se respetan en todo el corpus.
 
 ## Reglas
-- La voz del narrador manda también en el espejo: registro, ritmo, ironía si la hay.
+- El registro dramático manda en el espejo: época, clase y temperamento de cada personaje se conservan idioma a idioma (ver dec-005 sobre el idioma de los personajes británicos).
 - Nombres propios y rangos militares: forma histórica inglesa real (71st Regiment of Foot, Viceroy Sobremonte).
 - El voseo del diálogo rioplatense no se "neutraliza" en español; en inglés se resuelve por registro, no por dialecto inventado.
 - Un espejo desactualizado es peor que ninguno: si tocás un guion fuente, o actualizás el espejo o registrás la deuda en el log (`type: status`, "en mirror pendiente").

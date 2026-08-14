@@ -14,7 +14,7 @@
       "en"
     ],
     "defaultLanguage": "es",
-    "phase": "bible"
+    "phase": "characters"
   },
   "source": {
     "youtubeUrl": "https://youtu.be/WROVuJwqPtQ",
@@ -25,7 +25,38 @@
     },
     "segmentation": "source/segmentation.md"
   },
-  "episodes": [],
+  "episodes": [
+    {
+      "id": "ep01",
+      "title": {
+        "es": "La ciudad humillada",
+        "en": "The Humiliated City"
+      },
+      "status": "outline",
+      "files": {},
+      "continuityReports": []
+    },
+    {
+      "id": "ep02",
+      "title": {
+        "es": "La Reconquista",
+        "en": "The Reconquest"
+      },
+      "status": "outline",
+      "files": {},
+      "continuityReports": []
+    },
+    {
+      "id": "ep03",
+      "title": {
+        "es": "El origen del origen",
+        "en": "The Origin of the Origin"
+      },
+      "status": "outline",
+      "files": {},
+      "continuityReports": []
+    }
+  ],
   "characters": [
     {
       "id": "people",
@@ -127,6 +158,23 @@
   "decisions": {
     "pending": [
       {
+        "id": "dec-005",
+        "topic": "idioma-dialogos",
+        "question": {
+          "es": "¿Los personajes británicos hablan inglés (película bilingüe con subtítulos) o todo el elenco habla español? Impacta guion, casting de voces y versiones por idioma.",
+          "en": "Do British characters speak English (bilingual film with subtitles) or does the whole cast speak Spanish? Impacts scripts, voice casting, and language versions."
+        },
+        "options": [
+          "bilingue-subtitulado",
+          "todo-espanol",
+          "doble-version"
+        ],
+        "raisedBy": "creative-director",
+        "status": "pending"
+      }
+    ],
+    "resolved": [
+      {
         "id": "dec-001",
         "topic": "estetica-visual",
         "question": {
@@ -140,7 +188,9 @@
           "live-action-estilizado"
         ],
         "raisedBy": "creative-director",
-        "status": "pending"
+        "status": "answered",
+        "answer": "live-action-estilizado",
+        "answeredAt": "2026-08-14T22:24:15Z"
       },
       {
         "id": "dec-002",
@@ -150,7 +200,9 @@
           "en": "How many episodes and target duration? (Transcript segmentation will propose cuts, but format is a directorial decision.)"
         },
         "raisedBy": "creative-director",
-        "status": "pending"
+        "status": "answered",
+        "answer": "B: 3 episodios (La ciudad humillada / La Reconquista / El origen del origen)",
+        "answeredAt": "2026-08-14T22:24:15Z"
       },
       {
         "id": "dec-003",
@@ -160,7 +212,9 @@
           "en": "Is the source video's voice the film's narration (voice-over), or re-recorded/synthesized? Dubbed or subtitled in English?"
         },
         "raisedBy": "creative-director",
-        "status": "pending"
+        "status": "answered",
+        "answer": "ficción dialogada estilo producción de Hollywood: los personajes históricos (Liniers, Beresford...) hablan; sin narrador en off ni dispositivo-marco; Julia y Pedro solo informan a los agentes",
+        "answeredAt": "2026-08-14T22:24:15Z"
       },
       {
         "id": "dec-004",
@@ -170,14 +224,15 @@
           "en": "Aspect ratio and frame cadence? E.g., 2.39:1 epic, 16:9 standard, 4:3 period feel."
         },
         "raisedBy": "creative-director",
-        "status": "pending"
+        "status": "answered",
+        "answer": "16:9",
+        "answeredAt": "2026-08-14T22:24:15Z"
       }
-    ],
-    "resolved": []
+    ]
   },
   "renders": {
     "queue": [],
     "completed": []
   },
-  "updatedAt": "2026-08-14T22:09:01Z"
+  "updatedAt": "2026-08-14T22:24:15Z"
 }
