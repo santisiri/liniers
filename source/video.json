@@ -1,8 +1,11 @@
 {
-  "youtubeUrl": null,
-  "title": null,
-  "narrator": null,
-  "durationSeconds": null,
+  "youtubeUrl": "https://youtu.be/WROVuJwqPtQ",
+  "title": "EL DÍA que el PUEBLO ECHÓ a los INGLESES | Julia ROSEMBERG con Pedro ROSEMBLAT",
+  "channel": "GELATINA",
+  "narrator": "Julia Rosemberg (historiadora) en conversación con Pedro Rosemblat",
+  "durationSeconds": 2668,
   "language": "es",
-  "notes": "Pendiente: URL del video de la alocución sobre las Invasiones Inglesas."
+  "uploadDate": "2026-08-11",
+  "transcriptSource": "youtube-auto-captions (es-orig); mejora futura: whisper con diarización",
+  "notes": "Alocución conversacional a dos voces: Julia Rosemberg narra, Pedro Rosemblat conduce e interviene. Los subtítulos automáticos no etiquetan hablante."
 }

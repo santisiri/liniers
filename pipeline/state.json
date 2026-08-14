@@ -14,19 +14,116 @@
       "en"
     ],
     "defaultLanguage": "es",
-    "phase": "setup"
+    "phase": "bible"
   },
   "source": {
-    "youtubeUrl": null,
+    "youtubeUrl": "https://youtu.be/WROVuJwqPtQ",
     "media": null,
     "transcripts": {
-      "es": null,
+      "es": "source/transcript/es",
       "en": null
     },
-    "segmentation": null
+    "segmentation": "source/segmentation.md"
   },
   "episodes": [],
-  "characters": [],
+  "characters": [
+    {
+      "id": "people",
+      "name": "El pueblo de Buenos Aires (la multitud)",
+      "historical": true,
+      "status": "proposed"
+    },
+    {
+      "id": "liniers",
+      "name": "Santiago de Liniers",
+      "historical": true,
+      "status": "proposed"
+    },
+    {
+      "id": "sobremonte",
+      "name": "Rafael de Sobremonte",
+      "historical": true,
+      "status": "proposed"
+    },
+    {
+      "id": "beresford",
+      "name": "William Carr Beresford",
+      "historical": true,
+      "status": "proposed"
+    },
+    {
+      "id": "marcela",
+      "name": "Marcela (criolla de la fonda)",
+      "historical": false,
+      "status": "proposed"
+    },
+    {
+      "id": "popham",
+      "name": "Home Riggs Popham",
+      "historical": true,
+      "status": "proposed"
+    },
+    {
+      "id": "alzaga",
+      "name": "Martín de Álzaga",
+      "historical": true,
+      "status": "proposed"
+    },
+    {
+      "id": "whitelocke",
+      "name": "John Whitelocke",
+      "historical": true,
+      "status": "proposed"
+    },
+    {
+      "id": "manuela-pedraza",
+      "name": "Manuela Pedraza",
+      "historical": true,
+      "status": "proposed"
+    },
+    {
+      "id": "gillespie",
+      "name": "Alexander Gillespie",
+      "historical": true,
+      "status": "proposed"
+    },
+    {
+      "id": "guemes",
+      "name": "Martín Miguel de Güemes",
+      "historical": true,
+      "status": "proposed"
+    },
+    {
+      "id": "pueyrredon",
+      "name": "Juan Martín de Pueyrredón",
+      "historical": true,
+      "status": "proposed"
+    },
+    {
+      "id": "belgrano",
+      "name": "Manuel Belgrano",
+      "historical": true,
+      "status": "proposed"
+    },
+    {
+      "id": "saavedra",
+      "name": "Cornelio Saavedra",
+      "historical": true,
+      "status": "proposed"
+    },
+    {
+      "id": "julia-rosemberg",
+      "name": "Julia Rosemberg (narradora)",
+      "historical": false,
+      "status": "proposed"
+    },
+    {
+      "id": "pedro-rosemblat",
+      "name": "Pedro Rosemblat (conductor)",
+      "historical": false,
+      "status": "proposed"
+    }
+  ],
   "decisions": {
     "pending": [
       {
@@ -82,5 +179,5 @@
     "queue": [],
     "completed": []
   },
-  "updatedAt": "2026-08-14T21:07:38Z"
+  "updatedAt": "2026-08-14T22:09:01Z"
 }
