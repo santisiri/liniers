@@ -1,0 +1,18 @@
+# deps / builds
+node_modules/
+dashboard/.next/
+dashboard/out/
+*.tsbuildinfo
+
+# entorno
+.env
+.env.local
+
+# clones de referencia
+vendor/
+
+# media pesada descargada (la transcripción sí se versiona)
+source/media/
+
+# sistema
+.DS_Store

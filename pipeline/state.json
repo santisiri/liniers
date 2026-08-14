@@ -1,0 +1,69 @@
+{
+  "project": {
+    "slug": "liniers",
+    "workingTitle": { "es": "Las Invasiones", "en": "The Invasions" },
+    "logline": {
+      "es": "Buenos Aires, 1806–1807: dos invasiones británicas, una ciudad que se defiende sola y el nacimiento de una identidad.",
+      "en": "Buenos Aires, 1806–1807: two British invasions, a city that defends itself, and the birth of an identity."
+    },
+    "languages": ["es", "en"],
+    "defaultLanguage": "es",
+    "phase": "setup"
+  },
+  "source": {
+    "youtubeUrl": null,
+    "media": null,
+    "transcripts": { "es": null, "en": null },
+    "segmentation": null
+  },
+  "episodes": [],
+  "characters": [],
+  "decisions": {
+    "pending": [
+      {
+        "id": "dec-001",
+        "topic": "estetica-visual",
+        "question": {
+          "es": "¿Estética visual de la obra? Ej.: ilustración estilo Liniers (línea suelta, acuarela), grabado/aguafuerte de época, pintura histórica realista, o cinematografía live-action estilizada.",
+          "en": "Visual aesthetic? E.g., Liniers-style illustration (loose line, watercolor), period etching/engraving, realistic historical painting, or stylized live-action cinematography."
+        },
+        "options": ["ilustracion-acuarela", "grabado-epoca", "pintura-historica", "live-action-estilizado"],
+        "raisedBy": "creative-director",
+        "status": "pending"
+      },
+      {
+        "id": "dec-002",
+        "topic": "formato",
+        "question": {
+          "es": "¿Cuántos episodios y de qué duración objetivo? (La segmentación de la transcripción propondrá cortes, pero el formato es decisión de dirección.)",
+          "en": "How many episodes and target duration? (Transcript segmentation will propose cuts, but format is a directorial decision.)"
+        },
+        "raisedBy": "creative-director",
+        "status": "pending"
+      },
+      {
+        "id": "dec-003",
+        "topic": "narracion",
+        "question": {
+          "es": "¿La voz del video fuente es la narración de la película (voz en off) o se re-graba/sintetiza? ¿Se dobla al inglés o subtitula?",
+          "en": "Is the source video's voice the film's narration (voice-over), or re-recorded/synthesized? Dubbed or subtitled in English?"
+        },
+        "raisedBy": "creative-director",
+        "status": "pending"
+      },
+      {
+        "id": "dec-004",
+        "topic": "aspect-ratio",
+        "question": {
+          "es": "¿Relación de aspecto y cadencia? Ej.: 2.39:1 cine épico, 16:9 estándar, 4:3 de época.",
+          "en": "Aspect ratio and frame cadence? E.g., 2.39:1 epic, 16:9 standard, 4:3 period feel."
+        },
+        "raisedBy": "creative-director",
+        "status": "pending"
+      }
+    ],
+    "resolved": []
+  },
+  "renders": { "queue": [], "completed": [] },
+  "updatedAt": "2026-08-14T20:18:37Z"
+}

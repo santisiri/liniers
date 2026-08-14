@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Liniers pipeline state",
+  "type": "object",
+  "required": ["project", "source", "episodes", "characters", "decisions", "updatedAt"],
+  "properties": {
+    "project": {
+      "type": "object",
+      "required": ["slug", "workingTitle", "languages", "defaultLanguage", "phase"],
+      "properties": {
+        "slug": { "type": "string" },
+        "workingTitle": { "$ref": "#/$defs/localized" },
+        "logline": { "$ref": "#/$defs/localized" },
+        "languages": { "type": "array", "items": { "type": "string" } },
+        "defaultLanguage": { "type": "string" },
+        "phase": { "enum": ["setup", "ingest", "bible", "characters", "episodes", "post"] }
+      }
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "youtubeUrl": { "type": ["string", "null"] },
+        "media": { "type": ["string", "null"] },
+        "transcripts": { "type": "object", "additionalProperties": { "type": ["string", "null"] } },
+        "segmentation": { "type": ["string", "null"] }
+      }
+    },
+    "episodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "status"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^ep[0-9]{2}$" },
+          "title": { "$ref": "#/$defs/localized" },
+          "status": { "enum": ["outline", "draft", "continuity_review", "approved", "storyboard", "prompts", "rendering", "done"] },
+          "files": { "type": "object", "additionalProperties": { "type": "string" } },
+          "continuityReports": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "characters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "status"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "historical": { "type": "boolean" },
+          "status": { "enum": ["proposed", "sheet_drafted", "reference_generated", "approved"] },
+          "sheet": { "type": ["string", "null"] },
+          "references": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "decisions": {
+      "type": "object",
+      "properties": {
+        "pending": { "type": "array", "items": { "$ref": "#/$defs/decision" } },
+        "resolved": { "type": "array", "items": { "$ref": "#/$defs/decision" } }
+      }
+    },
+    "renders": {
+      "type": "object",
+      "properties": {
+        "queue": { "type": "array" },
+        "completed": { "type": "array" }
+      }
+    },
+    "updatedAt": { "type": "string" }
+  },
+  "$defs": {
+    "localized": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    },
+    "decision": {
+      "type": "object",
+      "required": ["id", "topic", "question", "status"],
+      "properties": {
+        "id": { "type": "string" },
+        "topic": { "type": "string" },
+        "question": { "$ref": "#/$defs/localized" },
+        "options": { "type": "array", "items": { "type": "string" } },
+        "raisedBy": { "type": "string" },
+        "status": { "enum": ["pending", "answered", "superseded"] },
+        "answer": { "type": ["string", "null"] },
+        "answeredAt": { "type": ["string", "null"] }
+      }
+    }
+  }
+}
