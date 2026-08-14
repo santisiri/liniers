@@ -14,5 +14,9 @@ vendor/
 # media pesada descargada (la transcripción sí se versiona)
 source/media/
 
+# configuración local de Claude Code (por máquina, no se comparte)
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+
 # sistema
 .DS_Store

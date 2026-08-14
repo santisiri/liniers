@@ -1,19 +1,28 @@
 {
   "project": {
     "slug": "liniers",
-    "workingTitle": { "es": "Las Invasiones", "en": "The Invasions" },
+    "workingTitle": {
+      "es": "Las Invasiones",
+      "en": "The Invasions"
+    },
     "logline": {
       "es": "Buenos Aires, 1806–1807: dos invasiones británicas, una ciudad que se defiende sola y el nacimiento de una identidad.",
       "en": "Buenos Aires, 1806–1807: two British invasions, a city that defends itself, and the birth of an identity."
     },
-    "languages": ["es", "en"],
+    "languages": [
+      "es",
+      "en"
+    ],
     "defaultLanguage": "es",
     "phase": "setup"
   },
   "source": {
     "youtubeUrl": null,
     "media": null,
-    "transcripts": { "es": null, "en": null },
+    "transcripts": {
+      "es": null,
+      "en": null
+    },
     "segmentation": null
   },
   "episodes": [],
@@ -27,7 +36,12 @@
           "es": "¿Estética visual de la obra? Ej.: ilustración estilo Liniers (línea suelta, acuarela), grabado/aguafuerte de época, pintura histórica realista, o cinematografía live-action estilizada.",
           "en": "Visual aesthetic? E.g., Liniers-style illustration (loose line, watercolor), period etching/engraving, realistic historical painting, or stylized live-action cinematography."
         },
-        "options": ["ilustracion-acuarela", "grabado-epoca", "pintura-historica", "live-action-estilizado"],
+        "options": [
+          "ilustracion-acuarela",
+          "grabado-epoca",
+          "pintura-historica",
+          "live-action-estilizado"
+        ],
         "raisedBy": "creative-director",
         "status": "pending"
       },
@@ -64,6 +78,9 @@
     ],
     "resolved": []
   },
-  "renders": { "queue": [], "completed": [] },
-  "updatedAt": "2026-08-14T20:18:37Z"
+  "renders": {
+    "queue": [],
+    "completed": []
+  },
+  "updatedAt": "2026-08-14T21:07:38Z"
 }
