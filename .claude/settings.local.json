@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(git -C /Users/santisiri/AI/liniers init)",
-      "Bash(git add *)",
-      "Bash(git commit -q -m 'pipeline: fundación del estudio — constitución, 9 agentes, 7 loops, estado y biblia semilla *)"
-    ]
-  }
-}
