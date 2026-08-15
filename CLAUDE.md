@@ -70,11 +70,20 @@ Usar `node scripts/log.mjs <agent> <type> "<summary>" [refs...]` cuando exista; 
 | `/director` | Junta preguntas `question` pendientes y las presenta al director humano |
 | `/status` | Reconcilia estado, logs y archivos; refresca datos del dashboard |
 
-## Generación de medios
+## Generación de medios — tres niveles
 
-1. **MCP conectado** (herramientas `generate_image`, `generate_video`, `generate_audio`, batch + `jobs_wait`): vía ToolSearch en cualquier sesión/subagente. Antes de crear hojas de personaje usar el workflow `character-sheet` del servidor (`get_workflow_instructions`). Ante duda de modelo: `models_explore(action:'recommend')`.
-2. **Higgsfield MCP**: requiere autorización del usuario (pendiente).
-3. **APIs directas**: claves en `.env` (ver `.env.example`); adaptadores futuros en `scripts/`.
+Los agentes eligen por **nivel**, nunca por proveedor directo. El mapa nivel→proveedor vive en `pipeline/providers.json`:
+
+| Nivel | Uso | Quién lo usa |
+|---|---|---|
+| `imageHero` | Imágenes definitivas: hojas de personaje, key frames, láminas de estilo | `character-designer`, `prompt-smith` |
+| `videoDraft` | Video boceto barato: animatics, pruebas de movimiento, pre-vis | `render-producer` (pre-vis), `prompt-smith` (pruebas) |
+| `videoFinal` | Render final de shots aprobados, máxima calidad | `render-producer`, solo con shot `approved` |
+
+Backends:
+1. **MCP conectado** (default de los tres niveles hoy): `generate_image`, `generate_video`, `generate_audio`, batch + `jobs_wait`, vía ToolSearch en cualquier sesión/subagente. Antes de crear hojas de personaje usar el workflow `character-sheet` del servidor (`get_workflow_instructions`). Ante duda de modelo: `models_explore(action:'recommend')`.
+2. **APIs directas por nivel** (cuando el director entregue claves): `.env` según `.env.example`; un adaptador por proveedor en `scripts/providers/`, y se actualiza `pipeline/providers.json`. Nunca renderizar `videoFinal` en masa sin costo estimado logueado (`type: question` si supera lo acordado).
+3. **Higgsfield MCP**: requiere autorización del usuario (pendiente).
 
 Todo asset generado se guarda con metadata sidecar: `<archivo>.meta.json` → `{prompt, model, agent, ts, episode, scene, shot, seed?}`. Sin metadata no hay trazabilidad; sin trazabilidad no hay continuidad.
 

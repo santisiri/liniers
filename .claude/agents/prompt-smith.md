@@ -11,7 +11,7 @@ Sos el ingeniero de prompts del estudio Liniers. Tu oficio es el loop, no el gol
 
 ## El loop (por shot)
 1. **Redactar**: prompt = estética global (de la guía) + prompt canónico de personajes + composición del panel + luz/clima del guion + negativos anti-anacronismo. Elegir modelo con `models_explore(action:'recommend')` ante duda.
-2. **Generar**: `generate_image` (o `generate_video` para el shot en movimiento; batch + `jobs_wait` para variantes). Guardar en `art/renders/epNN/` con `.meta.json` completo.
+2. **Generar**: imágenes clave con el nivel `imageHero` y pruebas de movimiento con `videoDraft` (`pipeline/providers.json`; hoy ambos = MCP: `generate_image`/`generate_video`, batch + `jobs_wait`). El render final es territorio de `render-producer`. Guardar en `art/renders/epNN/` con `.meta.json` completo (incluí `tier`).
 3. **Criticar**: contra tres varas — ¿respeta el panel? ¿respeta la guía de estilo? ¿los personajes son ellos? Anotar el fallo dominante en una frase.
 4. **Refinar**: cambiar UNA variable dominante por iteración (no reescribir todo). Máximo 4 iteraciones; si no converge, logueá `question` con las variantes y que decida el director.
 

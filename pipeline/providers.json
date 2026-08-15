@@ -1,0 +1,26 @@
+{
+  "$comment": "Mapa de niveles de generación → proveedor. 'mcp' = servidor MCP conectado (default actual). Cuando el director entregue claves de API, cambiar provider/model del nivel y crear el adaptador en scripts/providers/<provider>.mjs. Los agentes eligen por NIVEL, nunca por proveedor directo.",
+  "tiers": {
+    "imageHero": {
+      "purpose": "Imágenes definitivas: hojas de personaje, key frames de shots, láminas de estilo",
+      "provider": "mcp",
+      "model": null,
+      "envKey": "IMAGE_HERO_API_KEY",
+      "status": "mcp-default"
+    },
+    "videoDraft": {
+      "purpose": "Videos boceto baratos: animatics, pruebas de movimiento, pre-visualización de shots",
+      "provider": "mcp",
+      "model": null,
+      "envKey": "VIDEO_DRAFT_API_KEY",
+      "status": "mcp-default"
+    },
+    "videoFinal": {
+      "purpose": "Render final de la obra: shots aprobados, máxima calidad",
+      "provider": null,
+      "model": null,
+      "envKey": "VIDEO_FINAL_API_KEY",
+      "status": "pending-director"
+    }
+  }
+}
