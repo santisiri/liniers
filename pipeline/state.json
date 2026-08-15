@@ -141,38 +141,10 @@
       "name": "Cornelio Saavedra",
       "historical": true,
       "status": "proposed"
-    },
-    {
-      "id": "julia-rosemberg",
-      "name": "Julia Rosemberg (narradora)",
-      "historical": false,
-      "status": "proposed"
-    },
-    {
-      "id": "pedro-rosemblat",
-      "name": "Pedro Rosemblat (conductor)",
-      "historical": false,
-      "status": "proposed"
     }
   ],
   "decisions": {
-    "pending": [
-      {
-        "id": "dec-005",
-        "topic": "idioma-dialogos",
-        "question": {
-          "es": "¿Los personajes británicos hablan inglés (película bilingüe con subtítulos) o todo el elenco habla español? Impacta guion, casting de voces y versiones por idioma.",
-          "en": "Do British characters speak English (bilingual film with subtitles) or does the whole cast speak Spanish? Impacts scripts, voice casting, and language versions."
-        },
-        "options": [
-          "bilingue-subtitulado",
-          "todo-espanol",
-          "doble-version"
-        ],
-        "raisedBy": "creative-director",
-        "status": "pending"
-      }
-    ],
+    "pending": [],
     "resolved": [
       {
         "id": "dec-001",
@@ -227,6 +199,23 @@
         "status": "answered",
         "answer": "16:9",
         "answeredAt": "2026-08-14T22:24:15Z"
+      },
+      {
+        "id": "dec-005",
+        "topic": "idioma-dialogos",
+        "question": {
+          "es": "¿Los personajes británicos hablan inglés (película bilingüe con subtítulos) o todo el elenco habla español? Impacta guion, casting de voces y versiones por idioma.",
+          "en": "Do British characters speak English (bilingual film with subtitles) or does the whole cast speak Spanish? Impacts scripts, voice casting, and language versions."
+        },
+        "options": [
+          "bilingue-subtitulado",
+          "todo-espanol",
+          "doble-version"
+        ],
+        "raisedBy": "creative-director",
+        "status": "answered",
+        "answer": "bilingüe subtitulado: los personajes británicos hablan inglés; subtítulos en el idioma de cada versión",
+        "answeredAt": "2026-08-15T02:46:14Z"
       }
     ]
   },
@@ -234,5 +223,5 @@
     "queue": [],
     "completed": []
   },
-  "updatedAt": "2026-08-14T22:24:15Z"
+  "updatedAt": "2026-08-15T02:46:14Z"
 }

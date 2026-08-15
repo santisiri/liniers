@@ -17,7 +17,7 @@ En `story/episodes/epNN/`:
   ## epNN-scMM — TÍTULO (INT/EXT. LUGAR — MOMENTO)
   **Fuente** [mm:ss–mm:ss]: pasaje de la conversación fuente que fundamenta la escena (hecho/tesis).
   **Acción**: qué se ve, en presente.
-  **Diálogo**: el motor de la escena; los personajes hablan como en 1806, sin arcaísmo de cartón.
+  **Diálogo**: el motor de la escena; los personajes hablan como en 1806, sin arcaísmo de cartón. Los británicos hablan **inglés** (dec-005): sus líneas van en inglés en todos los guiones, con subtítulo en el idioma del guion debajo, en cursiva.
   **Nota visual**: la imagen clave de la escena (insumo directo para storyboard).
   ```
 - Escribí primero en `defaultLanguage`; el `localizer` hace los espejos de idioma (no traduzcas vos salvo pedido explícito).

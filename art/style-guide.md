@@ -7,7 +7,7 @@
 - **16:9** (dec-004). Composición pensada para streaming.
 - **Cámara**: puesta clásica de drama histórico — plano/contraplano donde la palabra pesa, cámara que respira con la multitud en las escenas de masa; nada de estética de videojuego ni drone-shots anacrónicos de exhibición.
 - **Textura**: grano fino de fílmico, contraste suave; la luz de invierno rioplatense (abajo) es la base tonal.
-- Decisión pendiente relacionada: `dec-005` (idioma de los diálogos británicos) — afecta casting de voces, no la imagen.
+- **Idioma (dec-005, resuelta)**: película bilingüe — los británicos hablan inglés subtitulado; casting de voces en dos idiomas.
 
 ## Fijo (independiente de la estética elegida)
 - **Época**: 1806–1807, Buenos Aires virreinal. Arquitectura baja, calles en damero, Plaza Mayor con Cabildo y Recova, el río llegando hasta lo que hoy es Leandro N. Alem.

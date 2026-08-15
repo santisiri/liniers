@@ -7,7 +7,8 @@
 1. **La obra es una ficción dialogada** estilo producción de Hollywood (dec-003): los personajes históricos hablan en escena. **No hay narrador en off, ni presentadores, ni Julia/Pedro en pantalla o en audio**: la conversación fuente es la brújula historiográfica que informa a los agentes — sus tesis (abajo, "Lo que la narración dice") gobiernan qué historia se cuenta, con qué énfasis y desde qué mirada (el pueblo como protagonista), pero los diálogos son dramaturgia original.
 2. **Estética**: live-action estilizado (dec-001), **16:9** (dec-004). Ver `art/style-guide.md`.
 3. **Formato**: 3 episodios — alternativa B de `source/segmentation.md` (dec-002): `ep01` **La ciudad humillada**, `ep02` **La Reconquista**, `ep03` **El origen del origen**.
-4. Consecuencias: las preguntas sobre el bloque promocional de Gelatina y el clip de *La muerte en las calles* quedan disueltas (no hay material de estudio en pantalla); la escena de Marcela se recrea como ficción propia. Queda abierta `dec-005`: idioma de los personajes británicos.
+4. Consecuencias: las preguntas sobre el bloque promocional de Gelatina y el clip de *La muerte en las calles* quedan disueltas (no hay material de estudio en pantalla); la escena de Marcela se recrea como ficción propia.
+5. **Idioma (dec-005)**: película **bilingüe** — los personajes británicos hablan **inglés** en escena, subtitulado en el idioma de cada versión; los rioplatenses hablan español. La barrera idiomática es material dramático (malentendidos, traducciones, la ciudad que no entiende a su ocupante).
 
 ## Andamiaje histórico (para fact-checking)
 
