@@ -1,0 +1,12 @@
+{
+  "prompt": "Character expression sheet, one full-body reference on the left and a grid of head-and-shoulders portraits on the right showing varied expressions — calm formal command, open astonishment watching an unseen crowd, devout reverence with eyes lowered as in silent prayer, attentive listening with the head inclined toward an unseen speaker, and the quiet contained guilt of a man who knows he failed, identical original male character in every panel, pure white seamless studio background, professional character sheet presentation, a 50-year-old European naval officer, weathered fair skin tanned and lined by decades at sea, long noble face with defined mature bone structure, strong prominent nose, slightly hollow cheeks, pale gray-blue seaman's eyes with naturally muted catchlights, no oversized specular glare in the iris, dark gray-flecked eyebrows, natural gray-brown hair lightly powdered in late 18th century fashion, tied back in a short queue with a black ribbon, visible fine skin texture with natural pores, fine lines, subtle asymmetries, weathered creases around the eyes, no digital smoothing, no beauty filter, no AI-airbrushed look, matte natural complexion, lean build with an upright naval bearing softened by fatigue, wearing a dark navy blue Spanish naval captain's coat circa 1806 with scarlet facings and cuffs and restrained gold braid, buff-white waistcoat, white breeches, black riding boots, no bag, natural anatomy, high-end but unretouched commercial photography style, soft diffused studio lighting without harsh reflections, cinematic realism, clean white background, 4K quality, sharp focus on skin texture detail, the same single character in every panel with identical face and uniform, no other people, no props, no furniture, no background objects, no babyface, no beauty filter, no digital smoothing, no plastic skin, original character not resembling any living celebrity, no text, no watermark, no logos, no frame borders",
+  "model": "nano_banana_2",
+  "agent": "character-designer",
+  "ts": "2026-08-15T15:49:26Z",
+  "character": "liniers",
+  "status": "candidate",
+  "job_id": "60dd64fd-a475-40f1-8148-b5bb487ae728",
+  "workflow": "character-sheet",
+  "composition": "expression-sheet",
+  "aspect_ratio": "16:9"
+}

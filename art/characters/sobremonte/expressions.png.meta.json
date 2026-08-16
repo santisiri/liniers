@@ -1,0 +1,12 @@
+{
+  "prompt": "Character expression sheet, one full-body reference on the left and a grid of head-and-shoulders portraits on the right showing varied expressions — a dismissive flick of the hand as if waving away a fly, public decorum masking alarm with a measured sideways glance, private wide-eyed panic behind closed doors, pompous protocolar solemnity, and peevish self-justifying dictation with pursed lips, identical original male character in every panel, pure white seamless studio background, professional character sheet presentation, a 61-year-old Spanish colonial courtier, pale indoor complexion, soft rounded but fully adult face, incipient double chin, small hooded self-satisfied eyes with naturally muted catchlights and no artificial glare, thin complacent mouth, sparse gray eyebrows, immaculate white powdered wig with side rolls and a black bow at the queue, visible fine skin texture with natural pores, fine lines, faint broken capillaries on the cheeks, no digital smoothing, no beauty filter, no AI-airbrushed look, matte natural complexion, heavy-set comfortable body with a slow ceremonious posture, wearing deep crimson velvet viceregal gala coat richly embroidered in gold, red silk sash of office, white lace jabot, white silk stockings, black buckled shoes, no bag, natural anatomy, high-end but unretouched commercial photography style, soft diffused studio lighting without harsh reflections, cinematic realism, clean white background, 4K quality, sharp focus on skin texture detail, the same single character in every panel with identical face and costume, no other people, no props, no furniture, no background objects, no beauty filter, no digital smoothing, no plastic skin, original character not resembling any living celebrity, no text, no watermark, no logos, no frame borders",
+  "model": "nano_banana_2",
+  "agent": "character-designer",
+  "ts": "2026-08-15T15:52:00Z",
+  "character": "sobremonte",
+  "status": "candidate",
+  "job_id": "7db632a6-c987-40cd-9098-e07af268cc39",
+  "workflow": "character-sheet",
+  "composition": "expression-sheet",
+  "aspect_ratio": "16:9"
+}

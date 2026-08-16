@@ -1,0 +1,12 @@
+{
+  "prompt": "Cinematic still from a premium period drama, Buenos Aires, 12 August 1806, low silver-gray winter light after rain, a 50-year-old European naval officer in Spanish service stands in a muddy colonial street, long noble weathered face with strong prominent nose, pale gray-blue eyes, gray-brown hair tied in a short queue, his dark navy blue Spanish naval captain's coat with scarlet facings soaked dark by drizzle, mud to the knee, black bicorne in hand, watching with astonishment rather than command as a blurred tide of armed townspeople — creole militiamen with muskets and knives, women in wool shawls — surges past him toward the main plaza, low whitewashed colonial houses with rooftop parapets, muted palette of river mud and silver with a single distant accent of a captured British red coat, fine film grain, soft contrast, shallow depth of field focused on his rain-damp weathered face with visible pores and natural skin texture, no digital smoothing, no beauty filter, historically accurate 1806 Rio de la Plata setting, no Argentine flag, no modern elements, no anachronisms, no text, no watermark",
+  "model": "text2image_soul_v2",
+  "agent": "character-designer",
+  "ts": "2026-08-15T15:49:26Z",
+  "character": "liniers",
+  "status": "candidate",
+  "job_id": "6da00700-e6ef-491b-9050-0ace3a8fe3b8",
+  "workflow": "cinematic-portrait",
+  "aspect_ratio": "16:9",
+  "seed": 288009
+}

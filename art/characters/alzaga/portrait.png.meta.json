@@ -1,0 +1,12 @@
+{
+  "prompt": "Cinematic still from a premium period thriller, Buenos Aires 1806, inside a hand-dug tunnel gallery shored with rough timber props beneath a military barracks, a 51-year-old gaunt Basque merchant in a superbly cut black broadcloth coat stained with damp earth holds up an iron lantern, his knife-thin angular face with sharp cheekbones and severe dark eyes half-lit by the warm flame against cold blue-gray darkness, he touches the excavated earthen wall with one dry sinewy hand, measuring with his eyes like a man auditing a ledger, dripping damp, shovels resting in shadow, candle-warm accent against a palette of mud and silver, fine film grain, soft contrast, shallow depth of field, natural skin texture with visible pores, no digital smoothing, no beauty filter, historically accurate 1806 Rio de la Plata setting, no modern elements, no anachronisms, no text, no watermark",
+  "model": "text2image_soul_v2",
+  "agent": "character-designer",
+  "ts": "2026-08-15T15:49:26Z",
+  "character": "alzaga",
+  "status": "candidate",
+  "job_id": "33835aea-5a47-4cf9-a278-7b74f6c8dfd1",
+  "workflow": "cinematic-portrait",
+  "aspect_ratio": "16:9",
+  "seed": 224349
+}

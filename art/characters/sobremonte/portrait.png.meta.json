@@ -1,0 +1,13 @@
+{
+  "prompt": "Cinematic still from a premium period drama, dawn on the muddy road from Buenos Aires to Cordoba, winter 1806, cold gray drizzle over the flat empty pampa, a heavy wooden oxcart convoy loaded with dark weathered oak strongboxes bound with black hand-forged iron straps and studded nails, colonial Spanish treasure chests of aged wood, bogged in deep mud, a 61-year-old Spanish viceroy in a mud-spattered travel cloak thrown over the remnants of gold-embroidered crimson court gala, white powdered wig slightly askew, standing beside his carriage and looking back toward the far gray horizon where his city was lost, his soft complacent face holding ceremonious dignity while everything around him says flight, drovers straining at a stuck wheel in the background, tragicomic solemnity in the staging, muted palette of mud, bone and silver, fine film grain, soft contrast, shallow depth of field on his face with natural skin texture and visible pores, no digital smoothing, no beauty filter, historically accurate 1806 Rio de la Plata setting, strictly period-correct props, no flags, no banners, no metal cases, no aluminum, no modern objects, no Argentine flag, no modern elements, no anachronisms, no text, no watermark",
+  "model": "text2image_soul_v2",
+  "agent": "character-designer",
+  "ts": "2026-08-15T15:54:30Z",
+  "character": "sobremonte",
+  "status": "candidate",
+  "job_id": "1d4c7286-276e-4c66-8e44-6852bc686abf",
+  "seed": 967437,
+  "workflow": "cinematic-portrait",
+  "aspect_ratio": "16:9",
+  "note": "v2 — reemplaza job 2da1a95a (rechazado por character-designer: cofres metalicos de lectura moderna). QA v2: cofres de madera con herrajes correctos; queda una banderita azul lejana y un posible artefacto tipo espejo en la carreta, a revisar si se aprueba como referencia."
+}

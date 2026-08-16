@@ -3,9 +3,11 @@
 import React, { useState } from "react";
 import { Header, type TabId } from "@/components/Header";
 import { OverviewView } from "@/components/OverviewView";
+import { AgentMapView } from "@/components/AgentMapView";
 import { ConversationsView } from "@/components/ConversationsView";
 import { GalleryView } from "@/components/GalleryView";
 import { DecisionsView } from "@/components/DecisionsView";
+import { SettingsView } from "@/components/SettingsView";
 import { useData } from "@/lib/useData";
 import type { StateJson } from "@/lib/types";
 
@@ -20,9 +22,11 @@ export default function Page() {
       <Header active={tab} onChange={setTab} pendingDecisions={pendingCount} />
       <main className="main">
         {tab === "overview" && <OverviewView onNavigate={setTab} />}
+        {tab === "map" && <AgentMapView />}
         {tab === "conversations" && <ConversationsView />}
         {tab === "gallery" && <GalleryView />}
         {tab === "decisions" && <DecisionsView />}
+        {tab === "settings" && <SettingsView />}
       </main>
     </>
   );

@@ -1,0 +1,12 @@
+{
+  "prompt": "Character expression sheet, one full-body reference on the left and a grid of head-and-shoulders portraits on the right showing varied expressions — judging silently in repose, cold contained anger without a raised voice, an appraising inspection squint measuring something unseen, a curt silent command with the chin, and contempt barely surfacing at the corner of the mouth, identical original male character in every panel, pure white seamless studio background, professional character sheet presentation, a 51-year-old Basque merchant, gaunt and wiry, knife-thin angular face with sharp high cheekbones and a tight clenched jaw, severe unblinking dark brown eyes with naturally muted catchlights and no artificial glare, thin pressed lips, weathered olive-pale skin, straight dark brows, natural iron-gray hair unpowdered, combed severely back, no wig, visible fine skin texture with natural pores, fine lines, subtle asymmetries, no digital smoothing, no beauty filter, no AI-airbrushed look, matte natural complexion, lean rigid upright body, wearing a superbly cut black broadcloth coat circa 1806, charcoal waistcoat, plain white linen shirt and neckcloth, black breeches, black buckled shoes, wealth without shine, no jewelry, no bag, natural anatomy, high-end but unretouched commercial photography style, soft diffused studio lighting without harsh reflections, cinematic realism, clean white background, 4K quality, sharp focus on skin texture detail, the same single character in every panel with identical face and clothing, no other people, no props, no furniture, no background objects, no babyface, no beauty filter, no digital smoothing, no plastic skin, original character not resembling any living celebrity, no text, no watermark, no logos, no frame borders",
+  "model": "nano_banana_2",
+  "agent": "character-designer",
+  "ts": "2026-08-15T15:50:30Z",
+  "character": "alzaga",
+  "status": "candidate",
+  "job_id": "503bba72-26bf-43b6-8246-ba2de5deb2c1",
+  "workflow": "character-sheet",
+  "composition": "expression-sheet",
+  "aspect_ratio": "16:9"
+}

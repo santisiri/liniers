@@ -1,0 +1,9 @@
+{
+  "prompt": "Using the reference character sheet, place the exact same woman — identical face, hair, build and clothing — into a cinematic 16:9 film still from a premium stylized live-action period drama: interior of a dim colonial fonda near the fort of Buenos Aires, late June 1806, hours after the British invasion, she stands beside a rough wooden table holding a pewter plate mid-service, caught in a moment of contained fury, face still, dark brown eyes burning but voice unraised, her black hair in the same loose half braid, same coarse ecru linen shirt with rolled sleeves, same dark mud-brown wool skirt, same stained apron, same woolen rebozo, reddened chapped working hands, out-of-focus scarlet coats of British officers seated at the table edge in the foreground blur, their red the only red accent in a mud-and-silver palette, cold silver winter light falling from a small window with wooden shutters showing only a whitewashed colonial wall and grey sky outside, candle smoke, adobe walls and dark timber, eye-level classic period-drama camera, shallow depth of field, fine film grain, soft contrast, unretouched natural skin with visible pores, no beauty filter, no digital smoothing, no glossy skin, matte natural complexion, weathered realism, no makeup, no text, no watermark, no logos, no modern elements, no distant city skyline, no ships, no flags, 1806 period accuracy in every detail [reference media: job 32db03c8-340f-4372-a671-476a31157205 (model-sheet.png)]",
+  "model": "nano_banana_pro (served as nano_banana_2, 2K, 16:9)",
+  "agent": "character-designer",
+  "ts": "2026-08-15T22:19:34Z",
+  "character": "marcela",
+  "status": "candidate",
+  "job_id": "0fbeea62-b7ee-41fb-ba83-1e0e4b91bad7"
+}
