@@ -62,85 +62,149 @@
       "id": "people",
       "name": "El pueblo de Buenos Aires (la multitud)",
       "historical": true,
-      "status": "proposed"
+      "status": "reference_generated",
+      "sheet": "story/characters/people.md",
+      "references": [
+        "art/characters/people/crowd-frame.png",
+        "art/characters/people/ensemble-sheet.png"
+      ]
     },
     {
       "id": "liniers",
       "name": "Santiago de Liniers",
       "historical": true,
-      "status": "proposed"
+      "status": "reference_generated",
+      "sheet": "story/characters/liniers.md",
+      "references": [
+        "art/characters/liniers/expressions.png",
+        "art/characters/liniers/model-sheet.png",
+        "art/characters/liniers/portrait.png"
+      ]
     },
     {
       "id": "sobremonte",
       "name": "Rafael de Sobremonte",
       "historical": true,
-      "status": "proposed"
+      "status": "reference_generated",
+      "sheet": "story/characters/sobremonte.md",
+      "references": [
+        "art/characters/sobremonte/expressions.png",
+        "art/characters/sobremonte/model-sheet.png",
+        "art/characters/sobremonte/portrait.png"
+      ]
     },
     {
       "id": "beresford",
       "name": "William Carr Beresford",
       "historical": true,
-      "status": "proposed"
+      "status": "reference_generated",
+      "sheet": "story/characters/beresford.md",
+      "references": [
+        "art/characters/beresford/expressions.png",
+        "art/characters/beresford/model-sheet.png",
+        "art/characters/beresford/portrait-v1.png",
+        "art/characters/beresford/portrait-v2.png",
+        "art/characters/beresford/portrait.png"
+      ]
     },
     {
       "id": "marcela",
       "name": "Marcela (criolla de la fonda)",
       "historical": false,
-      "status": "proposed"
+      "status": "reference_generated",
+      "sheet": "story/characters/marcela.md",
+      "references": [
+        "art/characters/marcela/expressions.png",
+        "art/characters/marcela/model-sheet.png",
+        "art/characters/marcela/portrait-alt.png",
+        "art/characters/marcela/portrait.png"
+      ]
     },
     {
       "id": "popham",
       "name": "Home Riggs Popham",
       "historical": true,
-      "status": "proposed"
+      "status": "sheet_drafted",
+      "sheet": "story/characters/popham.md",
+      "references": []
     },
     {
       "id": "alzaga",
       "name": "Martín de Álzaga",
       "historical": true,
-      "status": "proposed"
+      "status": "reference_generated",
+      "sheet": "story/characters/alzaga.md",
+      "references": [
+        "art/characters/alzaga/expressions.png",
+        "art/characters/alzaga/model-sheet.png",
+        "art/characters/alzaga/portrait.png"
+      ]
     },
     {
       "id": "whitelocke",
       "name": "John Whitelocke",
       "historical": true,
-      "status": "proposed"
+      "status": "reference_generated",
+      "sheet": "story/characters/whitelocke.md",
+      "references": [
+        "art/characters/whitelocke/expressions.png",
+        "art/characters/whitelocke/model-sheet.png",
+        "art/characters/whitelocke/portrait-v1.png",
+        "art/characters/whitelocke/portrait.png"
+      ]
     },
     {
       "id": "manuela-pedraza",
       "name": "Manuela Pedraza",
       "historical": true,
-      "status": "proposed"
+      "status": "reference_generated",
+      "sheet": "story/characters/manuela-pedraza.md",
+      "references": [
+        "art/characters/manuela-pedraza/expressions.png",
+        "art/characters/manuela-pedraza/model-sheet.png",
+        "art/characters/manuela-pedraza/portrait-alt.png",
+        "art/characters/manuela-pedraza/portrait.png"
+      ]
     },
     {
       "id": "gillespie",
       "name": "Alexander Gillespie",
       "historical": true,
-      "status": "proposed"
+      "status": "sheet_drafted",
+      "sheet": "story/characters/gillespie.md",
+      "references": []
     },
     {
       "id": "guemes",
       "name": "Martín Miguel de Güemes",
       "historical": true,
-      "status": "proposed"
+      "status": "sheet_drafted",
+      "sheet": "story/characters/guemes.md",
+      "references": []
     },
     {
       "id": "pueyrredon",
       "name": "Juan Martín de Pueyrredón",
       "historical": true,
-      "status": "proposed"
+      "status": "sheet_drafted",
+      "sheet": "story/characters/pueyrredon.md",
+      "references": []
     },
     {
       "id": "belgrano",
       "name": "Manuel Belgrano",
       "historical": true,
-      "status": "proposed"
+      "status": "sheet_drafted",
+      "sheet": "story/characters/belgrano.md",
+      "references": []
     },
     {
       "id": "saavedra",
       "name": "Cornelio Saavedra",
       "historical": true,
-      "status": "proposed"
+      "status": "sheet_drafted",
+      "sheet": "story/characters/saavedra.md",
+      "references": []
     }
   ],
   "decisions": {
@@ -223,5 +287,5 @@
     "queue": [],
     "completed": []
   },
-  "updatedAt": "2026-08-15T02:46:14Z"
+  "updatedAt": "2026-08-15T23:50:51Z"
 }

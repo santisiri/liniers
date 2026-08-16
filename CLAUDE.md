@@ -39,12 +39,14 @@ Actualizar estado siempre vía `node scripts/state.mjs` (nunca editar `state.jso
 Todo agente que trabaja en este repo **debe** registrar su actividad en `pipeline/log/conversations.jsonl`, una entrada por evento significativo:
 
 ```json
-{"ts":"<ISO-8601 UTC>","agent":"<slug>","type":"status|question|decision|artifact|handoff|verdict","summary":"<una frase>","refs":["<paths>"]}
+{"ts":"<ISO-8601 UTC>","agent":"<slug>","type":"status|question|decision|artifact|handoff|verdict","summary":"<una frase>","refs":["<paths>"],"to":"<slug opcional>"}
 ```
 
-Usar `node scripts/log.mjs <agent> <type> "<summary>" [refs...]` cuando exista; si no, apéndice manual con `date -u +%Y-%m-%dT%H:%M:%SZ`. El dashboard lee este archivo en vivo: es la memoria pública del estudio. `handoff` marca traspaso de trabajo entre agentes; `question` marca una pregunta pendiente para el director humano.
+Usar `node scripts/log.mjs <agent> <type> "<summary>" [refs...] [--to <agente>]` cuando exista; si no, apéndice manual con `date -u +%Y-%m-%dT%H:%M:%SZ`. El campo `to` es opcional y declara el destinatario de un `handoff`/`question`; las entradas históricas no lo tienen y todo consumidor debe tolerar su ausencia. El dashboard lee este archivo en vivo: es la memoria pública del estudio. `handoff` marca traspaso de trabajo entre agentes; `question` marca una pregunta pendiente para el director humano.
 
 ## El estudio: agentes
+
+**El orquestador (`studio`)**: la sesión principal de Claude Code sobre este repo ES el orquestador del estudio — el único rol que interfacea con el director humano (Santiago) y despacha a todos los demás. Recibe la intención del director (por terminal o por el chat del dashboard), la traduce en loops (`/episode`, `/characters`, `/shots`…), lanza los agentes, consolida sus resultados, actualiza el estado y reporta. Loguea como `agent: "studio"` y es el centro del mapa de agentes del dashboard. Los agentes especializados nunca dialogan directamente con el director: elevan `question` al log y el orquestador (o `creative-director` en sesión formal) las presenta.
 
 | Agente | Rol |
 |---|---|

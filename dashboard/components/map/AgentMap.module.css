@@ -1,0 +1,417 @@
+/* Mapa del estudio — estilos propios (module CSS; lo global vive en globals.css). */
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 330px;
+  gap: 24px;
+  align-items: start;
+}
+
+@media (max-width: 980px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.mapBox {
+  position: relative;
+}
+
+.mapSvg {
+  display: block;
+  width: 100%;
+  height: auto;
+  user-select: none;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 22px;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border-soft);
+}
+
+.legendItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 10.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.swatchLine {
+  width: 22px;
+  height: 0;
+  border-top: 2px solid var(--amber);
+  flex: none;
+}
+
+.swatchStructural {
+  border-top-style: dashed;
+  border-top-width: 1.5px;
+  border-top-color: var(--muted);
+}
+
+.swatchRecent {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--amber);
+  box-shadow: 0 0 8px rgba(217, 164, 65, 0.8);
+  flex: none;
+}
+
+.statsRow {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.statChip {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text-dim);
+}
+
+.statChip strong {
+  color: var(--amber-bright);
+  font-weight: 600;
+}
+
+/* ---------- nodos y aristas (SVG) ---------- */
+
+.node {
+  cursor: pointer;
+  transition: opacity 0.18s;
+}
+
+.nodeLabel {
+  font-family: var(--sans);
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  fill: var(--text-dim);
+  pointer-events: none;
+  transition: fill 0.15s;
+}
+
+.node:hover .nodeLabel,
+.nodeSelected .nodeLabel {
+  fill: var(--amber-bright);
+}
+
+.nodeInitials {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 600;
+  pointer-events: none;
+}
+
+.edge {
+  transition: opacity 0.18s;
+}
+
+.edgeHit {
+  fill: none;
+  stroke: transparent;
+  stroke-width: 16;
+  cursor: pointer;
+}
+
+.edgePath {
+  fill: none;
+  transition: stroke-opacity 0.15s, stroke-width 0.15s;
+}
+
+.dim {
+  opacity: 0.13;
+}
+
+.pulseHalo {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: mapPulse 2.4s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes mapPulse {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.1;
+    transform: scale(1.45);
+  }
+}
+
+/* ---------- panel lateral ---------- */
+
+.aside {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg-deep);
+  padding: 18px 18px 20px;
+  min-height: 300px;
+  max-height: 640px;
+  overflow-y: auto;
+}
+
+.asideEmpty {
+  color: var(--muted);
+  font-size: 12.5px;
+  font-style: italic;
+  padding: 18px 4px;
+}
+
+.profileHead {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.profileName {
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+
+.kindTag {
+  display: inline-block;
+  margin-top: 3px;
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1px 6px;
+}
+
+.roleLine {
+  font-size: 12.5px;
+  color: var(--text-dim);
+  margin-bottom: 10px;
+}
+
+.desc {
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.55;
+  margin-bottom: 14px;
+}
+
+.sectionLabel {
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 16px 0 8px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.typeChips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.connList {
+  display: grid;
+  gap: 4px;
+}
+
+.connBtn {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  text-align: left;
+  padding: 7px 9px;
+  border-radius: 7px;
+  border: 1px solid transparent;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.connBtn:hover {
+  background: var(--panel);
+  border-color: var(--border);
+}
+
+.connBtnActive {
+  background: var(--amber-dim);
+  border-color: var(--amber-line);
+}
+
+.connDot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  flex: none;
+}
+
+.connName {
+  font-size: 12px;
+  color: var(--text);
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.connMeta {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--muted);
+  flex: none;
+}
+
+.structDot {
+  color: var(--amber);
+  font-size: 11px;
+  flex: none;
+}
+
+/* ---------- timeline del par ---------- */
+
+.pairHead {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+
+.pairName {
+  font-family: var(--serif);
+  font-size: 16px;
+}
+
+.pairArrow {
+  color: var(--amber);
+  font-size: 14px;
+}
+
+.originChips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 8px 0 4px;
+}
+
+.originChip {
+  font-size: 9.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 1px dashed var(--border);
+  border-radius: 4px;
+  padding: 2px 7px;
+  color: var(--text-dim);
+}
+
+.originChipStructural {
+  border-style: dashed;
+  border-color: var(--amber-line);
+  color: var(--amber-bright);
+}
+
+.timeline {
+  display: grid;
+  gap: 2px;
+  margin-top: 8px;
+}
+
+.tlEntry {
+  padding: 10px 2px;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.tlEntry:last-child {
+  border-bottom: none;
+}
+
+.tlHead {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 3px;
+}
+
+.tlAgent {
+  font-size: 11.5px;
+  font-weight: 600;
+}
+
+.tlTo {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--muted);
+}
+
+.tlTs {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--muted);
+  margin-left: auto;
+}
+
+.tlSummary {
+  font-size: 12.5px;
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.tlRefs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 6px;
+}
+
+.viaTag {
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.capNote {
+  font-size: 11px;
+  color: var(--muted);
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.backBtn {
+  font-size: 10.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--amber);
+  padding: 2px 0;
+  margin-bottom: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.backBtn:hover {
+  color: var(--amber-bright);
+}
+
+.lastSeen {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  color: var(--muted);
+}

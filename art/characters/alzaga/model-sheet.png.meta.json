@@ -1,0 +1,12 @@
+{
+  "prompt": "Character turnaround model sheet, four consistent full-body views in a row — front view, 3/4 view, side profile, and back view, evenly spaced, identical original male character on all views, pure white seamless studio background, professional character sheet presentation, a 51-year-old Basque merchant, gaunt and wiry, knife-thin angular face with sharp high cheekbones and a tight clenched jaw, severe unblinking dark brown eyes of an accountant with naturally muted catchlights and no artificial glare in the iris, thin pressed lips, weathered olive-pale skin, straight dark brows, natural iron-gray hair unpowdered, cut plain and combed severely back, no wig, visible fine skin texture with natural pores, fine lines, subtle asymmetries, dry sinewy hands of a man who has signed a thousand bills of exchange, no digital smoothing, no beauty filter, no AI-airbrushed look, matte natural complexion, lean rigid upright body, wearing a superbly cut coat of the finest black broadcloth with a sober collar circa 1806, charcoal waistcoat, plain white linen shirt and neckcloth, black breeches, black stockings, black square-toed shoes with plain dull silver buckles, wealth without shine, no jewelry, no bag, natural anatomy, high-end but unretouched commercial photography style, soft diffused studio lighting without harsh reflections, cinematic realism, clean white background, 4K quality, sharp focus on fabric and skin texture detail, the same single character repeated in all four views with identical face and clothing, no other people, no props, no furniture, no background objects, no babyface, no beauty filter, no digital smoothing, no plastic skin, original character not resembling any living celebrity, no text, no watermark, no logos, no frame borders",
+  "model": "nano_banana_2",
+  "agent": "character-designer",
+  "ts": "2026-08-15T15:50:30Z",
+  "character": "alzaga",
+  "status": "candidate",
+  "job_id": "fb566384-46eb-41d5-9813-60bdfe8d413e",
+  "workflow": "character-sheet",
+  "composition": "turnaround",
+  "aspect_ratio": "16:9"
+}

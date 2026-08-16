@@ -1,0 +1,12 @@
+{
+  "prompt": "Character turnaround model sheet, four consistent full-body views in a row — front view, 3/4 view, side profile, and back view, evenly spaced, identical original male character on all views, pure white seamless studio background, professional character sheet presentation, a 61-year-old Spanish colonial courtier, pale indoor complexion, soft rounded but fully adult face of a man never contradicted, incipient double chin, small hooded self-satisfied eyes with naturally muted catchlights and no artificial glare in the iris, thin complacent mouth, sparse gray eyebrows, immaculate white powdered wig with side rolls and a black bow at the queue, visible fine skin texture with natural pores, fine lines, faint broken capillaries on the cheeks, subtle asymmetries, no digital smoothing, no beauty filter, no AI-airbrushed look, matte natural complexion, heavy-set comfortable body with a slow ceremonious upright posture, wearing full Spanish viceregal court gala circa 1806, deep crimson velvet coat richly embroidered in gold, embroidered waistcoat, red silk sash of office across the chest, white lace jabot and cuffs, white silk stockings, black shoes with polished silver buckles, ceremonial baton of command held in the right hand, no bag, natural anatomy, high-end but unretouched commercial photography style, soft diffused studio lighting without harsh reflections, cinematic realism, clean white background, 4K quality, sharp focus on embroidery and skin texture detail, the same single character repeated in all four views with identical face and costume, no other people, no props, no furniture, no background objects, no beauty filter, no digital smoothing, no plastic skin, original character not resembling any living celebrity, no text, no watermark, no logos, no frame borders",
+  "model": "nano_banana_2",
+  "agent": "character-designer",
+  "ts": "2026-08-15T15:49:26Z",
+  "character": "sobremonte",
+  "status": "candidate",
+  "job_id": "dfe23dcd-dcec-454a-bab2-1ff4690825a9",
+  "workflow": "character-sheet",
+  "composition": "turnaround",
+  "aspect_ratio": "16:9"
+}

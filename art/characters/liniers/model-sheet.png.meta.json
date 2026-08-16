@@ -1,0 +1,12 @@
+{
+  "prompt": "Character turnaround model sheet, four consistent full-body views in a row — front view, 3/4 view, side profile, and back view, evenly spaced, identical original male character on all views, pure white seamless studio background, professional character sheet presentation, a 50-year-old European naval officer, weathered fair skin tanned and lined by decades at sea, long noble face with defined mature bone structure, strong prominent nose, slightly hollow cheeks, tired dignified expression of a decent man overtaken by events, pale gray-blue seaman's eyes with naturally muted catchlights, no oversized specular glare in the iris, dark gray-flecked eyebrows, natural gray-brown hair lightly powdered in late 18th century fashion, tied back in a short queue with a black ribbon, a few unkempt strands, visible fine skin texture with natural pores, fine lines, subtle asymmetries, weathered creases around the eyes, no digital smoothing, no beauty filter, no AI-airbrushed look, matte natural complexion free of artificial glare, lean build of average height with an upright naval bearing softened by fatigue, wearing a dark navy blue Spanish naval captain's coat circa 1806 with scarlet facings and cuffs and restrained gold braid, buff-white waistcoat, white breeches, black riding boots with a dull worn finish, black bicorne hat carried under the left arm, small gilt officer's buttons, no bag, natural anatomy, high-end but unretouched commercial photography style, soft diffused studio lighting without harsh reflections, cinematic realism, clean white background, 4K quality, sharp focus on fabric and skin texture detail, the same single character repeated in all four views with identical face and uniform, no other people, no props, no furniture, no background objects, no babyface, no beauty filter, no digital smoothing, no plastic skin, no glossy skin, original character not resembling any living celebrity, no text, no watermark, no logos, no frame borders",
+  "model": "nano_banana_2",
+  "agent": "character-designer",
+  "ts": "2026-08-15T15:50:30Z",
+  "character": "liniers",
+  "status": "candidate",
+  "job_id": "c997e31c-c29b-4c3f-a551-fa2e04390d15",
+  "workflow": "character-sheet",
+  "composition": "turnaround",
+  "aspect_ratio": "16:9"
+}

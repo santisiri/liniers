@@ -1,0 +1,9 @@
+{
+  "prompt": "Cinematic film still from a premium period drama, 16:9, Buenos Aires in July 1806, interior of the colonial fort of the occupied city on a grey winter morning, cold silver Rio de la Plata winter light falling through a tall window, a British brigadier-general in his late thirties, tall with a strong athletic soldier's build, broad shoulders and straight parade-ground posture, quiet stern authority, unsmiling, wide face with a strong heavy jaw, high broad forehead, short cropped reddish-brown hair thinning to baldness at the crown, short neat sideburns, clear grey-blue eyes with a slight natural asymmetry of gaze, the left iris a shade paler than the right, wearing the scarlet dress coat of a British general officer of 1806 with dark blue lapels and facings, gold-embroidered buttonhole loops, gold fringed epaulettes and a deep crimson silk sash at the waist, standing upright over a large table map of a gridded colonial city, one fingertip resting on a street of the map as if he already owned it, printed proclamations and a pewter inkstand on the dark oak table, the scarlet coat the only saturated accent in a muted palette of river silver, mud brown and candle-wax white, visible unretouched skin texture with natural pores, no digital smoothing, no beauty filter, fine 35mm film grain, soft contrast, shallow depth of field, classic period-drama composition, grave commanding dramatic tone, single subject, no other people in frame, historically accurate 1806 Spanish colonial interior, no modern elements, no text, no watermark",
+  "model": "soul_2 (served as text2image_soul_v2, 2k, 16:9, seed 8569)",
+  "agent": "character-designer",
+  "ts": "2026-08-15T22:19:23Z",
+  "character": "beresford",
+  "status": "candidate",
+  "note": "v3 — rostro y porte on-model (sin parche, atlético, ~38); issue conocido: fondo urbano tras la ventana anacrónico (edificios altos, cúpula), a corregir en el loop de prompt-smith"
+}
