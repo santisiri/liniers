@@ -48,6 +48,8 @@ Usar `node scripts/log.mjs <agent> <type> "<summary>" [refs...] [--to <agente>]`
 
 **El orquestador (`studio`)**: la sesión principal de Claude Code sobre este repo ES el orquestador del estudio — el único rol que interfacea con el director humano (Santiago) y despacha a todos los demás. Recibe la intención del director (por terminal o por el chat del dashboard), la traduce en loops (`/episode`, `/characters`, `/shots`…), lanza los agentes, consolida sus resultados, actualiza el estado y reporta. Loguea como `agent: "studio"` y es el centro del mapa de agentes del dashboard. Los agentes especializados nunca dialogan directamente con el director: elevan `question` al log y el orquestador (o `creative-director` en sesión formal) las presenta.
 
+El canal de chat del dashboard (vista Dirección) habla con el orquestador vía `POST /api/chat`: cada turno corre como sesión headless de Claude Code (`claude -p --output-format json`, `--resume` con el `sessionId` guardado) y el hilo persiste en `pipeline/chat/` (`thread.jsonl`, `session.json`, `config.json`). Modos de permiso: `default` (consulta — el spawn va sin ningún flag de permisos; lo que requiere aprobación se deniega) y `acceptEdits` (producción — puede editar archivos sin aprobación por cambio). El default es SIEMPRE `default`; solo el director humano eleva el modo desde el toggle de la vista, y ese config es el único camino de elevación.
+
 | Agente | Rol |
 |---|---|
 | `transcript-analyst` | Analiza la transcripción fuente, segmenta en episodios/beats, glosario histórico |
