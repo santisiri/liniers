@@ -14,7 +14,7 @@
       "en"
     ],
     "defaultLanguage": "es",
-    "phase": "characters"
+    "phase": "episodes"
   },
   "source": {
     "youtubeUrl": "https://youtu.be/WROVuJwqPtQ",
@@ -32,9 +32,16 @@
         "es": "La ciudad humillada",
         "en": "The Humiliated City"
       },
-      "status": "outline",
-      "files": {},
-      "continuityReports": []
+      "status": "approved",
+      "files": {
+        "outline": "story/episodes/ep01/outline.md",
+        "scriptEs": "story/episodes/ep01/script.es.md",
+        "scriptEn": "story/episodes/ep01/script.en.md"
+      },
+      "continuityReports": [
+        "story/continuity/ep01-r1.md",
+        "story/continuity/ep01-r2.md"
+      ]
     },
     {
       "id": "ep02",
@@ -287,5 +294,5 @@
     "queue": [],
     "completed": []
   },
-  "updatedAt": "2026-08-15T23:50:51Z"
+  "updatedAt": "2026-08-16T22:03:30Z"
 }

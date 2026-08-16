@@ -125,3 +125,56 @@
 - Héctor G. Oesterheld, *450 años de guerra* (1974)
 - Charles Fouqueray, cuadros de la Reconquista y la Defensa (1909)
 - Belgrano, autobiografía (vía columna previa de Gelatina)
+
+## Equivalencias en inglés (localizer, 2026-08-16 — lote ep01)
+
+> Decisiones terminológicas del espejo `story/episodes/ep01/script.en.md`. Se deciden UNA vez acá y rigen para todo el corpus EN. Reglas generales del espejo: (a) las líneas británicas del guion fuente son **canónicas** y no se tocan; (b) el diálogo rioplatense se traduce por **registro y clase** de época, sin dialecto inventado — el voseo se resuelve con imperativos llanos y tratos ("son", "girl", "child", "my good sir"), no con fonética; (c) ortografía **británica** (honour, neighbour, defence) en acotaciones y diálogo traducido; (d) los bloques **Fuente** quedan en español tal cual; (e) carteles de fecha en convención día-mes ("27 JUNE", "5 JULY").
+
+| Término fuente | Inglés | Nota |
+|---|---|---|
+| *La ciudad humillada* (ep01) | *The Humiliated City* | Ya fijado en `pipeline/state.json` |
+| *La Reconquista* (ep02) / la Reconquista | *The Reconquest* / the Reconquest | Mandato del localizador; con artículo y mayúscula como término histórico |
+| *El origen del origen* (ep03) | *The Origin of the Origin* | Ya fijado en `pipeline/state.json` |
+| la Defensa (1807) | the Defence | Ortografía británica |
+| virrey / Virreinato del Río de la Plata | Viceroy / Viceroyalty of the Río de la Plata | "Viceroy Sobremonte"; "Río de la Plata" se conserva en prosa y carteles. En boca **británica** de época, la forma histórica es "the River Plate" (usar solo en diálogo inglés si hiciera falta nombrarlo) |
+| Excelencia | Excellency / Your Excellency | Vocativo: "Excellency" |
+| criollos / criollas | criollos / criollas | NO "creoles" (mandato); "what we criollas are worth" (sc12) |
+| fonda | fonda | Se conserva; glosa "eating-house" en primera aparición. Cue de sluglines: FONDA |
+| pulpería / pulpero | pulpería / pulpero | Se conservan; glosa "tavern-store" en primera aparición |
+| moza (de fonda) | (fonda) serving-girl | |
+| parroquiano | patron | Cue: PATRON 1/2 |
+| changador | porter | Cue: PORTER |
+| esclavo (cue de ensamble) | SLAVE | Cue fiel al fuente; en prosa descriptiva puede usarse "enslaved man" si fluye |
+| vecina (cue) | NEIGHBOUR WOMAN | |
+| criada | maidservant | |
+| edecán | aide-de-camp | |
+| pregonero | town crier | |
+| arriero | drover | |
+| talabartero | saddler | |
+| bando | proclamation | El de libre comercio se pregona como "proclamation"; "edict" admisible como variante en prosa. En diálogo popular: "proclamation or no proclamation" (sc12) |
+| "Es la graciable intención de Su Majestad Británica…" | "It is the gracious intention of His Britannic Majesty to open a free and permitted trade, similar to that of the other English colonies…" | Retroversión de época del bando (el original fue pensado en inglés); "His Britannic Majesty" = fórmula histórica |
+| "¡Grasiable intensión…!" (el niño) | "Grayshus intenshun…!" | Deformación infantil del pregón, espejada fonéticamente (mangling puntual, no dialecto) |
+| jura a Jorge III | "I swear fidelity and obedience to His Majesty King George the Third" | sc10 |
+| Highlanders / regimiento 71 | the 71st Highlanders | Forma histórica completa: 71st Regiment of Foot (mandato) |
+| fusil | musket | Época de chispa; "fusil oxidado" → "rusted musket" |
+| carreta | ox-cart | Título sc08: THE VICEROY'S OX-CARTS |
+| postas (de la campaña) | post-riders | Para el sistema: "relay posts" |
+| la campaña | the countryside | NO "campaign" (falso amigo) |
+| la pampa | the pampa | Asentado en inglés |
+| recova | recova (arcade) | Se conserva con glosa; "the Recova" como topónimo de la plaza |
+| cazuela (teatro) | cazuela (the upper gallery) | Se conserva con glosa |
+| sala capitular | chapter hall | Del Cabildo |
+| tertulia | tertulia | Se conserva (glosa "evening salon" si hace falta); slugline sc10: TERTULIA DRAWING ROOM |
+| pulpería (slugline) | PULPERÍA | Se conserva en sluglines |
+| puchero | puchero (stew) | Se conserva con glosa |
+| el fuerte | the fort | |
+| la plata (el tesoro) | the silver | Como en las líneas canónicas de Popham/Beresford; "tesoro" → "treasure" |
+| "conquista en regla" | "a conquest in due form" | Tesis 3; título sc09: A CONQUEST IN DUE FORM |
+| "el virrey no huye: se repliega" | "the viceroy does not flee: he withdraws" | sc08 |
+| "a pedradas" | "with stones" | Eco del inglés real de Gillespie ("…repelled the English with stones"); título sc12: WITH STONES |
+| "cobarde y traidor" | "coward and traitor" | Veredicto popular, sc11 |
+| fueguitos | little fires | Metáfora de la fuente; título sc05: LITTLE FIRES |
+| "el loco" (Popham) / el botín | "the madman" / the prize | Título sc02: THE MADMAN AND THE PRIZE ("prize" = botín en jerga naval de época; "plunder"/"treasure" en prosa según contexto) |
+| m'hija | child / girl | Por relación: afecto del pescador → "child"; condescendencia del criollo → "girl" |
+| don (Manuel) | Don (Manuel) | Se conserva el tratamiento |
+| señor / señorita (en boca británica) | señor / señoritas | Se conservan: marcan el intento de español del hablante (líneas canónicas sc09/sc10) |
