@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { useI18n } from "@/lib/i18n";
 import { useData } from "@/lib/useData";
-import { ASSET_STATUS_COLORS } from "@/lib/constants";
+import { ASSET_STATUS_COLORS, modelShort } from "@/lib/constants";
 import type { GalleryItem, GalleryPayload } from "@/lib/types";
 
 const KNOWN_STATUSES = new Set(["exploration", "candidate", "approved"]);
@@ -161,9 +161,19 @@ export function GalleryView() {
                         )}
                       </span>
                       <span className="asset-info">
-                        <span className="asset-name">{item.name}</span>
-                        {item.meta?.status && (
-                          <StatusChip status={String(item.meta.status)} />
+                        <span className="asset-info-row">
+                          <span className="asset-name">{item.name}</span>
+                          {item.meta?.status && (
+                            <StatusChip status={String(item.meta.status)} />
+                          )}
+                        </span>
+                        {item.meta?.model && (
+                          <span
+                            className="model-chip"
+                            title={String(item.meta.model)}
+                          >
+                            {modelShort(String(item.meta.model))}
+                          </span>
                         )}
                       </span>
                     </button>

@@ -60,6 +60,15 @@ export function agentColor(agent: string): string {
   return `hsl(${hue} 42% 66%)`;
 }
 
+/**
+ * Short label for a model chip: "soul_2 (served as text2image_soul_v2, …)"
+ * -> "soul_2". The full string belongs in the title attribute / modal.
+ */
+export function modelShort(model: string): string {
+  const head = model.split(" (")[0].trim();
+  return head || model;
+}
+
 /** Initials for the agent avatar: "continuity-guardian" -> "CG". */
 export function agentInitials(agent: string): string {
   const parts = agent.split(/[-_.\s]+/).filter(Boolean);

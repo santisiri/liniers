@@ -18,5 +18,8 @@ source/media/
 .claude/settings.local.json
 .claude/scheduled_tasks.lock
 
+# estado de runtime del chat del orquestador (el thread sí se versiona)
+pipeline/chat/session.json
+
 # sistema
 .DS_Store

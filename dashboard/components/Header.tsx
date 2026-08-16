@@ -4,6 +4,7 @@ import React from "react";
 import { useI18n, type Lang } from "@/lib/i18n";
 
 export type TabId =
+  | "direction"
   | "overview"
   | "map"
   | "conversations"
@@ -11,7 +12,15 @@ export type TabId =
   | "decisions"
   | "settings";
 
-const TABS: TabId[] = ["overview", "map", "conversations", "gallery", "decisions", "settings"];
+const TABS: TabId[] = [
+  "direction",
+  "overview",
+  "map",
+  "conversations",
+  "gallery",
+  "decisions",
+  "settings"
+];
 const LANGS: Lang[] = ["es", "en"];
 
 function GearIcon() {
@@ -30,6 +39,25 @@ function GearIcon() {
     >
       <circle cx="12" cy="12" r="3.2" />
       <path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1 1.55V21a2 2 0 1 1-4 0v-.09a1.7 1.7 0 0 0-1-1.55 1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.7 1.7 0 0 0 .34-1.87 1.7 1.7 0 0 0-1.55-1H3a2 2 0 1 1 0-4h.09a1.7 1.7 0 0 0 1.55-1 1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.7 1.7 0 0 0 1.87.34h.09a1.7 1.7 0 0 0 1-1.55V3a2 2 0 1 1 4 0v.09a1.7 1.7 0 0 0 1 1.55 1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.7 1.7 0 0 0-.34 1.87v.09a1.7 1.7 0 0 0 1.55 1H21a2 2 0 1 1 0 4h-.09a1.7 1.7 0 0 0-1.55 1z" />
+    </svg>
+  );
+}
+
+function ChatIcon() {
+  return (
+    <svg
+      className="tab-icon"
+      viewBox="0 0 24 24"
+      width="12"
+      height="12"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
     </svg>
   );
 }
@@ -98,6 +126,7 @@ export function Header({ active, onChange, pendingDecisions }: HeaderProps) {
             className={`tab${active === id ? " active" : ""}`}
             onClick={() => onChange(id)}
           >
+            {id === "direction" && <ChatIcon />}
             {id === "map" && <MapIcon />}
             {id === "settings" && <GearIcon />}
             {t(`tabs.${id}`)}

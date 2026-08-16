@@ -89,3 +89,53 @@ export interface GalleryCategory {
 export interface GalleryPayload {
   categories: GalleryCategory[];
 }
+
+// ---------------------------------------------------------------- direction
+
+/** Modo de permisos de la sesión headless del orquestador (default = seguro). */
+export type PermissionMode = "default" | "acceptEdits";
+
+export type ChatRole = "director" | "studio" | "system";
+
+export interface ChatMessage {
+  ts: string;
+  role: ChatRole;
+  text: string;
+  turnId?: string;
+}
+
+/** Media enriquecida de un ref bajo art/ (imagen o video con sidecar). */
+export interface TimelineMedia {
+  ref: string;
+  url: string;
+  kind: "image" | "video";
+  model: string | null;
+  status: string | null;
+}
+
+export interface TimelineChatItem {
+  kind: "chat";
+  ts: string;
+  role: ChatRole;
+  text: string;
+  turnId?: string;
+}
+
+export interface TimelineMilestoneItem {
+  kind: "milestone";
+  ts: string;
+  agent: string;
+  type: string;
+  summary: string;
+  refs: string[];
+  to?: string;
+  media: TimelineMedia[];
+}
+
+export type TimelineItem = TimelineChatItem | TimelineMilestoneItem;
+
+export interface TimelinePayload {
+  items: TimelineItem[];
+  busy: boolean;
+  permissionMode: PermissionMode;
+}
